@@ -1,10 +1,10 @@
 import cv2    
 import time
 cpt = 0
-maxFrames = 1300 # if you want 5 frames only.
+maxFrames = 100 # if you want 5 frames only.
 
 count=0
-cap=cv2.VideoCapture('traffic.mp4')
+cap=cv2.VideoCapture('')
 while cpt < maxFrames:
     ret, frame = cap.read()
 #    count += 1
